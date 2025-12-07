@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnStaff.setOnClickListener {
-            // toDo
+            startActivity(Intent(this, StaffActivity::class.java))
         }
 
         btnHouseStudents.setOnClickListener {
