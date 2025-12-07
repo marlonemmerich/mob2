@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnHouseStudents.setOnClickListener {
-            // toDo
+            startActivity(Intent(this, HouseStudentsActivity::class.java))
         }
 
         btnExitApp.setOnClickListener {
