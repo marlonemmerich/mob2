@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btnExitApp = findViewById<Button>(R.id.btnExitApp)
 
         btnCharacterById.setOnClickListener {
-            // toDo
+            startActivity(Intent(this, CharacterByIdActivity::class.java))
         }
 
         btnStaff.setOnClickListener {

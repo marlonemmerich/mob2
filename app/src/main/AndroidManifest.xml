@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".CharacterByIdActivity" />
         <activity android:name=".StaffActivity" />
         <activity android:name=".HouseStudentsActivity" />
     </application>
